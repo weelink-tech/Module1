@@ -9,16 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let btn  = UIButton.init(frame: CGRect.init(x: 120, y: 80, width: 90, height: 60))
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        view.addSubview(btn)
+        btn.backgroundColor = UIColor.blue
+        btn.addTarget(self, action: #selector(btnTapped), for: UIControlEvents.touchUpInside)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @objc func btnTapped() {
+        let listViewController = GoodsMineListViewController.init()
+        self.present(listViewController, animated: true, completion: nil)
     }
-
 }
 

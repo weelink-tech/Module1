@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049EB683252C94F600B713FE /* Target_Goods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EB682252C94F600B713FE /* Target_Goods.swift */; };
+		049EB685252C952300B713FE /* GoodsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EB684252C952300B713FE /* GoodsDetailViewController.swift */; };
+		049EB687252C954C00B713FE /* GoodsMineListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049EB686252C954C00B713FE /* GoodsMineListViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,6 +32,9 @@
 
 /* Begin PBXFileReference section */
 		00B53AD218442FAF125461D7 /* Pods-Module1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Module1_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Module1_Tests/Pods-Module1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		049EB682252C94F600B713FE /* Target_Goods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_Goods.swift; sourceTree = "<group>"; };
+		049EB684252C952300B713FE /* GoodsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsDetailViewController.swift; sourceTree = "<group>"; };
+		049EB686252C954C00B713FE /* GoodsMineListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsMineListViewController.swift; sourceTree = "<group>"; };
 		1942D79D6FAAF0764AD07937 /* Pods_Module1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Module1_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D82AFD2999C98199917815E /* Pods_Module1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Module1_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF75521A28BCA50F14E4EBE /* Pods-Module1_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Module1_Example.debug.xcconfig"; path = "Target Support Files/Pods-Module1_Example/Pods-Module1_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -42,11 +48,11 @@
 		607FACE51AFB9204008FA782 /* Module1_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Module1_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9B924D2FC5B8D4239C592C95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9B924D2FC5B8D4239C592C95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C0C54778F75B3F780F448090 /* Pods-Module1_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Module1_Tests.release.xcconfig"; path = "Target Support Files/Pods-Module1_Tests/Pods-Module1_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF12974F65B803334EC72DAF /* Pods-Module1_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Module1_Example.release.xcconfig"; path = "Target Support Files/Pods-Module1_Example/Pods-Module1_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E90BB2E643EE03EFE69E6DCE /* Module1.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Module1.podspec; path = ../Module1.podspec; sourceTree = "<group>"; };
-		F0B1E352F7A503504A60C987 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E90BB2E643EE03EFE69E6DCE /* Module1.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Module1.podspec; path = ../Module1.podspec; sourceTree = "<group>"; };
+		F0B1E352F7A503504A60C987 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +83,6 @@
 				00B53AD218442FAF125461D7 /* Pods-Module1_Tests.debug.xcconfig */,
 				C0C54778F75B3F780F448090 /* Pods-Module1_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -107,6 +112,9 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				049EB682252C94F600B713FE /* Target_Goods.swift */,
+				049EB684252C952300B713FE /* GoodsDetailViewController.swift */,
+				049EB686252C954C00B713FE /* GoodsMineListViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -227,6 +235,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,8 +340,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049EB685252C952300B713FE /* GoodsDetailViewController.swift in Sources */,
+				049EB687252C954C00B713FE /* GoodsMineListViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				049EB683252C94F600B713FE /* Target_Goods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
