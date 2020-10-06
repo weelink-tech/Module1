@@ -1,0 +1,22 @@
+{
+  "name": "Module1",
+  "version": "0.1.0",
+  "summary": "A short description of Module1.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaolangshou@foxmail.com/Module1",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaolangshou@foxmail.com": "xiaolangshou@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/xiaolangshou@foxmail.com/Module1.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Module1/Classes/**/*"
+}
